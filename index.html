@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benchwork Tools — Local-First Engineering Utilities</title>
+  <meta name="description" content="Benchwork Tools builds fast, local-first and cloud-native utilities for small engineering teams that hate $15k/yr enterprise SaaS. Makers of ActPack (EU AI Act) and FieldLens for Jira.">
+  <link rel="canonical" href="https://benchworktools.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benchworktools.github.io/">
+  <meta property="og:title" content="Benchwork Tools — Local-First Engineering Utilities">
+  <meta property="og:description" content="Fast, zero-telemetry software utilities for engineering teams. Makers of ActPack (EU AI Act) and FieldLens for Jira.">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="25" height="25" rx="6" stroke="#38bdf8" stroke-width="2" fill="#0f172a"/>
+          <path d="M7.5 19.5V8.5H14.5C16.8 8.5 18.2 9.6 18.2 11.4C18.2 12.7 17.4 13.5 16.3 13.8C17.8 14.1 18.8 15.1 18.8 16.6C18.8 18.5 17.2 19.5 14.7 19.5H7.5Z" stroke="#f8fafc" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M9.5 14H15.5" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">Benchwork Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#products">Products</a>
+        <a href="#principles">Principles</a>
+        <a href="/fieldlens/">FieldLens Docs</a>
+        <a href="https://github.com/benchworktools" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:benchworktools@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="eyebrow">
+          <span class="pill pill-accent">Independent Software Studio</span>
+          <span class="pill">Zero Telemetry • Built for Builders</span>
+        </div>
+        <h1>Practical tools for engineering teams that hate enterprise bloatware.</h1>
+        <p class="lead">
+          Benchwork Tools builds focused, inspectable compliance and administration utilities that run locally on your machine or natively inside your existing cloud — without $15k/yr SaaS contracts or third-party data harvesting.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#products">Explore Products</a>
+          <a class="btn btn-secondary" href="https://github.com/benchworktools" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono">CATALOG</span>
+          <h2>Live Products</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="card">
+            <div class="card-top">
+              <div class="badge-icon" aria-hidden="true">AP</div>
+              <div>
+                <span class="tag tag-live">Live Now</span>
+                <h3>ActPack — EU AI Act Compliance Pack &amp; Offline CLI</h3>
+              </div>
+            </div>
+            <p>
+              Classify your AI system against the Nov–Dec 2026 EU AI Act enforcement timeline (Art. 4, GPAI, active Art. 50, Dec 2026 marking, and Dec 2027 Annex III) 100% locally in your browser — then generate a 9-file Git compliance pack + GitHub Actions CI gate offline.
+            </p>
+            <ul class="feature-list">
+              <li>Free 100% browser-local classifier &amp; Art. 50 notice generator</li>
+              <li>Zero-dependency Python stdlib CLI ($49 Pro / $129 White-Label Agency)</li>
+              <li>MIT-licensed starter templates &amp; checklist on GitHub</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="https://eu.actpack.workers.dev" target="_blank" rel="noopener noreferrer">Launch ActPack</a>
+              <a class="btn btn-ghost" href="https://github.com/benchworktools/actpack-eu-ai-act-starter" target="_blank" rel="noopener noreferrer">GitHub Starter</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <img class="app-icon" src="assets/fieldlens-icon.png" alt="FieldLens for Jira icon" width="48" height="48">
+              <div>
+                <span class="tag tag-forge">Atlassian Forge</span>
+                <h3>FieldLens for Jira — Custom Field &amp; Context Auditor</h3>
+              </div>
+            </div>
+            <p>
+              Stop guessing before deleting Jira custom fields. FieldLens runs 100% natively on Atlassian Forge (zero external egress, read-only permissions) to score custom field hygiene, flag orphaned/stale fields, cluster duplicates, and export safe cleanup plans.
+            </p>
+            <ul class="feature-list">
+              <li>Instance Health Score (0–100, Grade A–F) &amp; trend tracking</li>
+              <li>1-click live JQL issue count check before deleting any field</li>
+              <li>Runs on Atlassian · Read-only (<code>read:jira-work</code>) · Zero PII stored</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="/fieldlens/">Docs, Privacy &amp; EULA</a>
+              <a class="btn btn-ghost" href="mailto:benchworktools@gmail.com?subject=FieldLens%20for%20Jira">Support</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="principles" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono">HOW WE BUILD</span>
+          <h2>Studio Principles</h2>
+        </div>
+        <div class="principles-grid">
+          <div class="card-mini">
+            <h3>1. Zero Data Harvesting</h3>
+            <p>Our tools run locally in your browser, offline in your CI pipeline, or strictly inside Atlassian's Forge runtime. Zero tracking cookies and zero external data egress.</p>
+          </div>
+          <div class="card-mini">
+            <h3>2. Inspectable &amp; Portable</h3>
+            <p>Plain Markdown, CSV, JSON, and zero-dependency CLIs that belong in Git next to your codebase — never trapped inside proprietary GRC portals.</p>
+          </div>
+          <div class="card-mini">
+            <h3>3. Honest, Transparent Pricing</h3>
+            <p>Straightforward one-time licenses or transparent Marketplace per-seat tiers — no forced sales demos and no surprise enterprise upsells.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <strong>Benchwork Tools</strong>
+        <p class="muted">Independent engineering software studio. Zero tracking cookies, zero third-party analytics.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://eu.actpack.workers.dev">ActPack</a>
+        <a href="/fieldlens/">FieldLens for Jira</a>
+        <a href="/fieldlens/#privacy">Privacy Policy</a>
+        <a href="https://github.com/benchworktools" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

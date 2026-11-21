@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FieldLens for Jira by Benchwork Tools — Docs, Privacy Policy &amp; EULA</title>
+  <meta name="description" content="Official documentation, privacy policy, EULA, and support for FieldLens for Jira by Benchwork Tools — 100% read-only, zero-egress Atlassian Forge app.">
+  <link rel="canonical" href="https://benchworktools.github.io/fieldlens/">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img class="app-icon-sm" src="../assets/fieldlens-icon.png" alt="" width="28" height="28">
+        <span class="brand-name">FieldLens for Jira</span>
+        <span class="brand-sub">by Benchwork Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="FieldLens navigation">
+        <a href="#docs">Documentation</a>
+        <a href="#privacy">Privacy &amp; Security</a>
+        <a href="#eula">EULA</a>
+        <a href="#support">Support</a>
+        <a href="/">All Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container doc-main">
+    <div class="eyebrow">
+      <span class="pill pill-accent">Runs on Atlassian Forge</span>
+      <span class="pill">100% Read-Only • Zero External Egress</span>
+    </div>
+    <h1>FieldLens for Jira — Custom Field &amp; Context Auditor</h1>
+    <p class="lead">
+      Audit Jira Cloud custom field bloat, detect duplicate field clusters (including type mismatches), flag global-context performance drag, and export safe IT change-control cleanup plans — without ever moving data outside Atlassian's cloud.
+    </p>
+
+    <section id="docs" class="card doc-card">
+      <h2>Documentation &amp; Quick Start</h2>
+      <ol class="doc-list">
+        <li>Install <strong>FieldLens for Jira</strong> from the Atlassian Marketplace onto your Jira Cloud site.</li>
+        <li>Navigate to <strong>Jira Settings → Apps → FieldLens — Custom Field Auditor</strong>.</li>
+        <li>Review your <strong>Instance Health Score (0–100, Grade A–F)</strong>, orphaned fields (0 screens + stale), duplicate clusters, and global-context bloat flags.</li>
+        <li>Click <strong>Check Count</strong> on any candidate field to verify live issue usage via JQL (<code>cf[ID] is not EMPTY</code>) before deleting it manually in Jira Settings.</li>
+        <li>Open the <strong>Cleanup Plan Export (MD / CSV)</strong> tab to copy a formula-safe CSV or Markdown IT change-control checklist.</li>
+      </ol>
+    </section>
+
+    <section id="privacy" class="card doc-card">
+      <h2>Privacy Policy &amp; Data Security</h2>
+      <p class="muted"><strong>Effective Date:</strong> November 21, 2026 · <strong>Vendor:</strong> Benchwork Tools</p>
+      <ul class="doc-list">
+        <li><strong>Runs 100% on Atlassian Forge (Zero Data Egress):</strong> All backend functions and UI components execute natively inside Atlassian's managed Forge cloud runtime. Zero customer data is transmitted to external servers, third-party analytics, or external sub-processors.</li>
+        <li><strong>Least-Privilege Read-Only Scopes:</strong> FieldLens requests only <code>read:jira-work</code> (read-only access to custom field metadata and on-demand JQL counts) and <code>storage:app</code> (Atlassian-hosted Forge KVS). FieldLens cannot delete, rename, or modify Jira issues or configuration.</li>
+        <li><strong>Zero Personal Data Stored:</strong> FieldLens never stores issue titles, descriptions, comments, attachments, emails, or user account IDs. Only aggregate numeric trend snapshots (timestamp, health score, total custom fields, orphaned/duplicate/bloat counts) are stored inside Atlassian's Forge app storage.</li>
+        <li><strong>Data Deletion:</strong> Uninstalling FieldLens from your Jira Cloud site automatically removes all app storage in accordance with Atlassian's Forge lifecycle policy.</li>
+      </ul>
+    </section>
+
+    <section id="eula" class="card doc-card">
+      <h2>End-User License Agreement (EULA)</h2>
+      <p>
+        FieldLens for Jira is licensed under the Atlassian Marketplace Terms of Use and Standard EULA. Benchwork Tools grants the subscribing organization a non-exclusive, non-transferable license to use FieldLens on its licensed Jira Cloud instance(s) during an active trial or paid subscription. FieldLens is provided &ldquo;as is&rdquo; as a read-only administrative diagnostic utility; Jira administrators remain responsible for reviewing configurations and maintaining backups before manually deleting or modifying custom fields in Jira.
+      </p>
+    </section>
+
+    <section id="support" class="card doc-card">
+      <h2>Support &amp; Security Reporting</h2>
+      <ul class="doc-list">
+        <li><strong>Customer Support:</strong> Email <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a> (target response within 1 business day, Monday–Friday).</li>
+        <li><strong>Security &amp; Vulnerability Reports:</strong> Email <a href="mailto:benchworktools@gmail.com?subject=%5BSECURITY%5D%20FieldLens%20for%20Jira">benchworktools@gmail.com</a> with subject <code>[SECURITY] FieldLens for Jira</code>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <strong>Benchwork Tools</strong>
+        <p class="muted">Zero tracking cookies. Zero third-party analytics.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/">Benchwork Tools Home</a>
+        <a href="https://eu.actpack.workers.dev">ActPack</a>
+        <a href="https://github.com/benchworktools" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
