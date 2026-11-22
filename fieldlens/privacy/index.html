@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy &amp; Data Security — FieldLens for Jira by Benchwork Tools</title>
+  <meta name="description" content="Data security and privacy statement for FieldLens for Jira by Benchwork Tools. Runs 100% natively on Atlassian Forge with zero external data egress.">
+  <link rel="canonical" href="https://benchworktools.github.io/fieldlens/privacy/">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img class="app-icon-sm" src="../../assets/fieldlens-icon.png" alt="" width="28" height="28">
+        <span class="brand-name">FieldLens for Jira</span>
+        <span class="brand-sub">by Benchwork Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="FieldLens navigation">
+        <a href="/fieldlens/">Documentation</a>
+        <a href="/fieldlens/privacy/">Privacy &amp; Security</a>
+        <a href="/fieldlens/eula/">EULA</a>
+        <a href="/fieldlens/support/">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container doc-main">
+    <div class="eyebrow">
+      <span class="pill pill-accent">Runs on Atlassian Forge</span>
+      <span class="pill">Zero External Data Egress</span>
+    </div>
+    <h1>Privacy Policy &amp; Data Security Statement</h1>
+    <p class="lead"><strong>Product:</strong> FieldLens — Custom Field &amp; Context Auditor for Jira · <strong>Vendor:</strong> Benchwork Tools · <strong>Effective Date:</strong> November 21, 2026</p>
+
+    <section class="card doc-card">
+      <h2>1. Data Hosting &amp; Zero External Egress</h2>
+      <p>FieldLens runs 100% natively inside Atlassian's managed Forge cloud infrastructure. Zero customer data, metadata, or telemetry is transmitted to external servers, third-party analytics platforms, or external sub-processors.</p>
+    </section>
+
+    <section class="card doc-card">
+      <h2>2. Permissions &amp; Scope Minimization</h2>
+      <ul class="doc-list">
+        <li><code>read:jira-work</code> — Read-only access to Jira custom field definitions, screen/context counts, and on-demand JQL approximate issue counts. FieldLens cannot delete, rename, or mutate Jira issues or configuration.</li>
+        <li><code>storage:app</code> — Atlassian-hosted Forge Key-Value Storage used strictly to store aggregate numeric audit trend snapshots (timestamp, health score, total field count, orphaned/duplicate/bloat counts).</li>
+      </ul>
+    </section>
+
+    <section class="card doc-card">
+      <h2>3. Personal Data &amp; Issue Content</h2>
+      <p>FieldLens does not collect, process, or store personal data (names, emails, account IDs, IP addresses) and never stores Jira issue titles, descriptions, comments, or attachments.</p>
+    </section>
+
+    <section class="card doc-card">
+      <h2>4. Data Retention, Deletion &amp; Security Contact</h2>
+      <p>Uninstalling FieldLens from your Jira Cloud site automatically removes all Forge app storage in accordance with Atlassian's Forge data lifecycle policy. Report security questions or vulnerabilities to <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div><strong>Benchwork Tools</strong></div>
+      <div class="footer-links">
+        <a href="/fieldlens/">Documentation</a>
+        <a href="/fieldlens/eula/">EULA</a>
+        <a href="/fieldlens/support/">Support</a>
+        <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
