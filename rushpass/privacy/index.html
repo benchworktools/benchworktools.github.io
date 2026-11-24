@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — RushPass | Benchwork Tools</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0b0f17;color:#f3f6fb;line-height:1.65}
+    .wrap{max-width:820px;margin:0 auto;padding:36px 20px 64px}
+    a{color:#fbbf24;text-decoration:none} a:hover{text-decoration:underline}
+    .nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:28px;padding-bottom:14px;border-bottom:1px solid #243047}
+    .card{background:#121826;border:1px solid #243047;border-radius:14px;padding:22px;margin-bottom:16px}
+    h1{margin:0 0 8px;font-size:30px} h2{margin:0 0 8px;font-size:18px} p,li{color:#b4c0d4}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <strong>⚡ RushPass Privacy Policy</strong>
+      <div style="display:flex;gap:16px;font-size:14px;">
+        <a href="https://benchworktools.github.io/rushpass/">Docs</a>
+        <a href="https://benchworktools.github.io/rushpass/terms/">Terms</a>
+        <a href="https://benchworktools.github.io/rushpass/support/">Support</a>
+      </div>
+    </nav>
+
+    <h1>Privacy Policy — RushPass</h1>
+    <p><strong>Effective Date:</strong> November 24, 2026 · <strong>Publisher:</strong> Benchwork Tools (<code>benchworktools@gmail.com</code>)</p>
+
+    <div class="card">
+      <h2>1. Zero Customer PII Storage</h2>
+      <p>RushPass is architected with strict data minimization. We <strong>never collect, store, or sell shopper personal data</strong> — including shopper names, email addresses, shipping addresses, phone numbers, or payment card numbers.</p>
+    </div>
+
+    <div class="card">
+      <h2>2. Data Stored for App Operation</h2>
+      <ul>
+        <li><strong>Merchant Store Record:</strong> Store domain / Wix instance ID, OAuth access token (encrypted in transit via TLS 1.3), RushPass widget settings (fee amount, label, tag), and platform billing subscription ID.</li>
+        <li><strong>Order Accounting Ledger:</strong> Non-personal order ID, order number, RushPass fee amount, currency, and platform usage-billing record ID strictly for idempotent usage billing and your merchant ROI dashboard.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. GDPR, CCPA &amp; Platform Compliance Webhooks</h2>
+      <p>RushPass implements Shopify's mandatory compliance webhooks (<code>customers/data_request</code>, <code>customers/redact</code>, and <code>shop/redact</code>) and Wix's app removal webhooks. Upon uninstall and redaction notice, all merchant configuration, access tokens, and order ledger records are permanently deleted from Cloudflare D1.</p>
+    </div>
+
+    <div class="card">
+      <h2>4. Infrastructure &amp; Contact</h2>
+      <p>RushPass runs on Cloudflare Workers &amp; Cloudflare D1 with strict HTTPS/HSTS and constant-time HMAC webhook verification. For privacy inquiries or deletion requests, email <a href="mailto:benchworktools@gmail.com">benchworktools@gmail.com</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
